@@ -23,6 +23,9 @@ dependencies {
 dependencies {
     implementation("org.postgresql:postgresql:42.7.3")
     implementation("com.google.code.gson:gson:2.10.1")
+    implementation("io.swagger:swagger-core:1.6.14")
+    implementation("org.springdoc:springdoc-openapi-starter-webmvc-ui:2.4.0")
+    implementation("io.github.swagger2markup:swagger2markup:1.3.4")
 }
 
 /**

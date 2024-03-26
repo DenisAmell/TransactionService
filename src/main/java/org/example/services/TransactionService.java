@@ -18,12 +18,6 @@ public class TransactionService {
     private TransactionRepository transactionRepository;
 
     @Autowired
-    private CurrencyRepository currencyRepository;
-
-    @Autowired
-    private CoursesRepository coursesRepository;
-
-    @Autowired
     private CategoryRepository categoryRepository;
 
     @Autowired
